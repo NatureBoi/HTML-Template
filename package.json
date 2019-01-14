@@ -1,0 +1,12 @@
+{
+  "name": "html-template",
+  "version": "1.0.0",
+  "description": "A pug & sass templte for creating html projects",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/index.sass html/css/index.css",
+    "pug": "pug -w pug/ -o html/ -P "
+  },
+  "author": "NatureBoi - Seun",
+  "license": "MIT"
+}
